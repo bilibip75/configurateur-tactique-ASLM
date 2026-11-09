@@ -1,0 +1,31 @@
+{
+  "id": "./",
+  "name": "ASLM — Éditeur Tactique Football",
+  "short_name": "Compo ASLM",
+  "description": "Éditeur de composition et de tactique football ASLM, utilisable sur mobile et installable.",
+  "lang": "fr-FR",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#eef3fb",
+  "theme_color": "#06112f",
+  "categories": ["sports", "productivity", "utilities"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouvelle composition",
+      "short_name": "Nouvelle compo",
+      "description": "Ouvrir l’éditeur de tactique ASLM",
+      "url": "./index.html",
+      "icons": [{"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"}]
+    }
+  ]
+}
